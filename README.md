@@ -1,5 +1,5 @@
 # ITRIA
-Interactive tracking roGFP Image Analysis
+Interactive Tracking roGFP Image Analysis
 
 ART is a MATLAB based image analysis tool for cell tracking and roGFP measurements over time of individual cells, developed by Avia Mizrachi, in the lab of Assaf Vardi at the Weizmann Institute of Science.
 
