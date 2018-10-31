@@ -1,13 +1,14 @@
 %% the Itria script
 %{
+MIT License
+Copyright (c) 2018 Avia Mizrachi
+
 %% Important!
 % all the variables and parameters that can be changed by the user are in
 the varsFunc. Please see that function and varify that everything fits the
 requirements before running the sacript.
 
-Adaptation from the FIJI script
-the FIJI itria script:
-/* roGFP script for image analysis
+This script is made for image analysis of roGFP timelapse imaging in photosynthetic cells.
 This script takes a 4-channel .vsi timelapse file and creates a ratio image
 of 405/488 and calculates the oxD pixel by pixel based on extreme values for max ox and
 max red. 
@@ -18,6 +19,7 @@ The user chooses background ROI and the background is substracted.
 Then, the user chooses a threshold value (or uses automated threshold with
 pre-defined values).
 
+Imaging channel order:
 1. ex 405 (roGFP405)
 2. ex 488 (roGFP488)
 3. chlorophyll
@@ -36,7 +38,6 @@ The output:
 7. roGFP expression image (405i*488i/5000) ***divide in 5000 for cal bar visualization
 8. measurements of roGFP ratio and 488i per cell.
 All output files are saved in an output directory within the directory of the original image.
-*/
 
 %}
 
